@@ -13,8 +13,9 @@ deploy:
   region: "eu-west-2"
   app: "awssucks"
   env: "awssucks-env"
-  bucket_name: elasticbeanstalk-eu-west-2-766106480256
+  bucket_name: "elasticbeanstalk-eu-west-2-766106480256"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_ID
   secret_access_key: $AWS_SECRET_KEY
+  edge: true
